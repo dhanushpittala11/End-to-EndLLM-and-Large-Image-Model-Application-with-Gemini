@@ -41,13 +41,13 @@ To leverage the potential of Google Gemini Pro for innovative use cases in conte
   ```
   git clone https://github.com/dhanushpittala11/End-to-EndLLM-and-Large-Image-Model-Application-with-Gemini
   ```
-  ### Setup Environment using:
-  ```bash
-  conda create -p venv python==3.10 -y
-  ```
   If conda is not installed, run this command in the terminal of the project environment.
   ```bash
   pip install conda
+  ```
+  ### Setup Environment using:
+  ```bash
+  conda create -p venv python==3.10 -y
   ```
   ### Activate the environment:
   ```bash
