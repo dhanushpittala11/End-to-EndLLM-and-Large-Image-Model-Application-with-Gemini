@@ -64,13 +64,37 @@ To leverage the potential of Google Gemini Pro for innovative use cases in conte
   streamlit run vision.py
   ```
 ## Directory Tree
-
+   ```
+  ./venv  -> virtual environment for the project 
+  ./.gitignore -> specifies files not to be tracked in version control
+  ./vision.py  -> 
+  ./README.md   
+  ./requirements.txt -> check all the dependencies, libraries, packages in this
+  ```
 ## To Do
-
+   Deployment of the application in the cloud, monitor and track the application.
 ## Bug / Feature Request
-
+   If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue here by including your 
+   search query and the expected result.
+   
+   If you'd like to request a new function, feel free to do so by opening an issue here. Please include sample queries and their corresponding 
+   results.
 ## Techstack Used
+   ### Core Programming Language
+   * Python: The primary programming language used for implementing the functionality.
+   ### Libraries and APIs
+   * Environment Management:
+     dotenv: For loading environment variables (e.g., API keys) securely.
+   * Web Framework:
+     streamlit: For building the interactive web application.
+   * Generative AI:
+     google.generativeai: To interact with Google's Gemini Pro generative AI model.
 
+   ### Deployment Tools
+   * Streamlit's Web App Environment: For deploying the app on a local server or cloud-based environments.
+   ### Environment Variables
+   * API Configuration:
+     os.getenv: To securely fetch the GOOGLE_API_KEY from the environment variables.
 ## License
 
 ## Credits
